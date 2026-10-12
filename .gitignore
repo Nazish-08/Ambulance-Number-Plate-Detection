@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Training outputs and datasets
+runs/
+datasets/
+Ambulance_YOLO_Dataset/
+Ambulance_YOLO_Annotated_Only/
+COCO_Export/
+Selected_Ambulance_Images/
+
+# Model weights (large files)
+*.pt
+*.onnx
+*.engine
+*.torchscript
+
+# Generated files
+*.cache
+*.log
+results.csv
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Keep example environment file if needed
+!.env.example
